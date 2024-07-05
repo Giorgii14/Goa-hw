@@ -1,0 +1,10 @@
+name=("Giorgi")
+print(name)
+age=(14)
+print(age)
+height=167
+weight=62
+print(weight+height)
+name=("Giorgi")
+lastname=("Gurgenidze")
+print(name+lastname)

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body>
+   <label for="salution">salution:</label>
+   <select id="salution" name="salution">
+    <option>--None--</option>
+    <option>MR.</option>
+    <option>MRS.</option>
+
+
+   </select> <br> <br> <br>
+
+<label for="First name">First name:</label>
+<input id="First name" type="text">
+<br> <br>
+<label for="Last name">Last name:</label>
+<input id="Last name" type="text">
+<br> <br>
+<label for="Gender">Gender:</label>
+<label for="Male">male</label>
+<input id="Male" type="checkbox">
+<label for="female">female</label>
+<input id="female" type="checkbox"> 
+<br> <br>
+
+<label for="emali">email:</label>
+<input id="email" type="text">
+<br> <br>
+<label for="Date of Birth">Date of Birth:</label>
+<input type="date" id="Date of Birth">
+<br> <br>
+Adress: <br>
+<textarea rows="3" cols="17" ></textarea>
+
+
+
+   
+</body>
+</html>
+
+
+
+

@@ -1,2 +1,2 @@
-name = input()
-print('hello ' + name ) 
+name = input()  #შეტანა სახელის
+print('hello ' + name )  #წინ ეწერება გამარჯობა

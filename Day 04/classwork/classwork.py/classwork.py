@@ -1,5 +1,5 @@
 name_boy =("giorgi")  # 1 davaleba
-name_girl =("mariami")
+name_girl =("mariami") #ორსიტყვიანი ცვლადის დროს ვასშორებტ  (_)
 print(name_boy)
 print(name_girl)
 

@@ -1,2 +1,2 @@
-price = float(input())
-print(type(price))
+price = float(input())    #ვაქცევტ ფლოატად
+print(type(price))     #გამოგვაქ ტიპი

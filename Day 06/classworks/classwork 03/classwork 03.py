@@ -1,3 +1,3 @@
-user_name=input()
-last_name=input()
-print('hello ' + user_name + ' ' + last_name)
+user_name=input()   # შეგვყავს მომხმარებლის სახელი
+last_name=input()    # შეგვყავს მომხმარებლის გვარი
+print('hello ' + user_name + ' ' + last_name)   # მომხმარებლის სახელს ემატება მომხმარებლის გვარი და წინ ემატება და ეწერება გამარჯობა

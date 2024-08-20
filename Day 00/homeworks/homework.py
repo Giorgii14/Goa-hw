@@ -1,44 +1,44 @@
 from turtle import *
 
-#we want to paint a house
+#we want to paint a house      
 #step 1: draw a square
 
-speed(30)
-width(7)
-color("purple")
+speed(30)   #სისწრაფე 30
+width(7)  #სიგანე 7
+color("purple") #ფერი იასამნისერი
 
-forward(200)
-left(90)
+forward(200) #წინ წასვლა 200 ით
+left(90)   #მარცხნივ წასვლა -90 ით
 
-forward(200)
-left(90)
+forward(200)   #წინ წასვლა 200 ით
+left(90)      #მარცხნივ წასვლა -90 ით
 
-forward(200)
-left(90)
+forward(200)      #წინ წასვლა 200 ით
+left(90)        #მარცხნივ წასვლა -90 ით
 
-forward(200)
-left(90)
+forward(200)       #წინ წასვლა 200 ით
+left(90)           #მარცხნივ წასვლა -90 ით
 #end of square
 
 #drawing a door
 
-forward(70)
-color("yellow")
+forward(70)        #წინ წასვლა 70 ით
+color("yellow")     #ფერი ყვითელი
 begin_fill()
-left(90)
+left(90)          
 forward(120)    #height of the door
-right(90)
-forward(60)
-right(90)
-forward(120)
+right(90)     #მარჯვნივ 90 ით
+forward(60)     # წინ 60 ით
+right(90)           #მარჯვნივ 90 ით
+forward(120)        #წინ 120 ით
 end_fill()
 
-penup()
-goto(200, 200)
-pendown()
-color("red")
-begin_fill()
-right(150)
+penup()    #წერტილის აღებ
+goto(200, 200)    #წერტილთან მისვლა
+pendown()         #წერტილის დასმა (მონისშვნა)
+color("red")    #ფერი წითელი
+begin_fill()     #ფერიტ გავსება
+right(150)   
 forward(200)
 left(120)
 forward(200)
@@ -49,11 +49,11 @@ end_fill()
 
 
 
-penup()
-goto(160,150)
-pendown()
-color("blue")
-begin_fill()
+penup()   #წერტილის აღებ
+goto(160,150)   #წერტილთან მისვლა
+pendown()     #წერტილის დასმა (მონისშვნა)
+color("blue")    #ფერი ლურჯი
+begin_fill()      #ფერიტ გავსება
 
 
 right(60)
@@ -66,10 +66,10 @@ right(90)
 forward(25)
 end_fill()
 
-penup()
-goto(30,150)
-pendown()
-color("blue")
+penup()   #წერტილის აღებ
+goto(30,150)     #წერტილთან მისვლა
+pendown()     #წერტილის დასმა (მონისშვნა)
+color("blue")     #ფერი ლურჯი
 begin_fill()
 left(90)
 forward(35)
@@ -84,4 +84,4 @@ end_fill()
 
 
 
-exitonclick()
+exitonclick()   #არ გაითიშოს სანამ არ დავაწვები

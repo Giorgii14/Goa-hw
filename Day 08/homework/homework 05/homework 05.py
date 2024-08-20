@@ -1,3 +1,3 @@
 age = '42'
-print(int(age))
+print(int(age))  #ეს გადაიქცევა ინტეჯერად
 

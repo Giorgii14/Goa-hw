@@ -1,2 +1,2 @@
-name = str(input())
-print(type(name))
+name = str(input()) #ვაქცევთ სტრინგად 
+print(type(name)) #და ვადგენთ ცვლადის ტიპს

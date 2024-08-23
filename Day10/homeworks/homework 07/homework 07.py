@@ -1,3 +1,2 @@
-price = 20.5
+price = int(20.5)
 print(price)
-print(int(price))

@@ -1,6 +1,6 @@
-num = 10
+
+name = input("შეიყვანეთ სახელი: ")
 
 
-while num <= 30:
-    print(num)
-    num = num +1
+for _ in range(5):
+    print(f"hello {name}")

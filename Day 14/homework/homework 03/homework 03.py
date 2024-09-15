@@ -1,5 +1,4 @@
-num = 50
 
-while num >= 10:
-    print(num)
-    num = num -1
+for i in range(1, 21):
+    goa = i / 2     
+    print(goa)    

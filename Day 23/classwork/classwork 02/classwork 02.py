@@ -1,0 +1,1 @@
+#print,input(),int(),string(),float().

@@ -1,0 +1,11 @@
+
+list1 = [1, 2, 3]
+list2 = ['phonne ', 'car', 'computer']
+list3 = ["bike", "mouse"," keyboard"]
+list4 = ["clock", "house", "city","sea"]
+
+
+print(len(list1)) 
+print(len(list2))
+print(len(list3)) 
+print(len(list4)) 

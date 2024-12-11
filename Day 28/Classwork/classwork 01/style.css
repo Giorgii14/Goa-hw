@@ -1,0 +1,97 @@
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: #840909;
+    box-shadow: 0 0 100px rgb(0,0,0,0.6 );
+    position: fixed;
+    width:1430px;
+    z-index: 1000;
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+.logo{
+    display: flex;
+    
+} 
+.logo p{
+    margin-top: 16px;
+    font-family: Jaro;
+}
+.logo b{
+    margin-top: 16px;
+    font-family: jaro;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    margin-right: 10px;
+}
+ul button{
+    margin-left: 20px;
+    background: #b32409;
+    padding: 10px;
+    border-radius: 20px;
+  
+    
+
+}
+ul button:hover{
+    opacity: 0.6;
+    
+    
+}
+ul a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+   font-size: 30px; 
+}
+ul a:hover{
+    opacity: 0.6;
+}
+    
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    display: flex;
+    font-size: 30px;
+    margin-top: 1px;
+}
+
+.hmpage_h1{
+    text-decoration: underline rgb(247, 2, 2);
+    text-underline-offset: 10px;
+    
+    
+
+}
+
+
+    
+
+
+
+
+.btn button{
+    cursor: pointer;
+    font-size: 30px;
+
+}
+.btn button:hover{
+    opacity: 0.6;
+}

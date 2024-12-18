@@ -1,0 +1,40 @@
+img {
+    border-radius: 5%;
+    width: 80%;
+   
+}
+
+h1 {
+    text-align: center;
+    color: green;
+
+
+}
+
+
+body {
+    background-color: lightblue;
+}
+
+
+h3 {
+    text-align: center;
+    color: red;
+}
+
+
+
+button {
+    font-size: 25px;
+    border-radius: 5%;
+    background-color: aquamarine;
+   
+}
+
+
+div {
+    text-align: center;
+    font-size: 30px;
+}
+
+

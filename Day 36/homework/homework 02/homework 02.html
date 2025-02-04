@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff0f0f;
+        }
+        .list-container {
+            max-width: 600px;
+            margin: 0 auto;
+           
+            padding: 20px;
+            
+         
+        }
+       
+        ol li {
+       
+            background: #e0f7fa;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            position: relative;
+        }
+        ol li::before {
+            
+            position: absolute;
+            left: -30px;
+            top: 50%;
+          
+            
+            color: #ff0000;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            background: #ffe0b2;
+            margin-bottom: 10px;
+            padding: 10px;
+            position: relative;
+        }
+        ul li::before {
+            content: "•";
+            position: absolute;
+            left: -20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>LISTS :)))))</h1>
+    <div class="list-container">
+        
+        <ol>
+            <li>FOOTBALL</li>
+            <li>BASKETBALLL</li>
+            <li>TENNIS</li>
+            <li>RUGBY</li>
+            <li>SWIMMING</li>
+        </ol>
+        
+        <ul>
+            <li>TBILISI</li>
+            <li>BATUMI</li>
+            <li>NEW-YOURK</li>
+            <li>PARIS</li>
+            <li>BARCELONA</li>
+        </ul>
+    </div>
+</body>
+</html>

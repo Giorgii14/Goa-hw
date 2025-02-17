@@ -1,0 +1,8 @@
+.container {
+      width: 500px; 
+  }
+
+  .container p {
+    flex-shrink: 2;
+    border: 2px solid #000000;
+  }

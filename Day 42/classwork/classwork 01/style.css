@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #53614f;
+  }
+  
+  .my-div {
+    width: 500px;
+    height: 500px;
+    background-color: #eeeaea;
+    border: 2px solid #861414;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-image: url('cleansetup.jpg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  
+  .my-div:hover {
+    width: 525px;
+    height: 525px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+  }
+
+
+
+/* cover ნიშნავს იმას რომ სურათი მთლიანად არის დაფარული
+/* contain სურათი ჩაეტევა დივში და არიქნება ადგილი დარჩენილი
+/* repeat ნიშნავს როდესაც სურათი მეორდება
+/* no-reoeat ნიშნავს როცა სურათი არ მეორდება
